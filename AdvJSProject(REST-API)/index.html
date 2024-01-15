@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Shop</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">Fruitbear Candy Shop</h2>
+
+        <form id="candyForm">
+            <div class="form-group">
+                <label for="candyName">Candy Name:</label>
+                <input type="text" class="form-control" id="candyName" name="candyName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="candyDescription">Description:</label>
+                <input type="text" class="form-control" id="candyDescription" name="candyDescription" required>
+            </div>
+
+            <div class="form-group">
+                <label for="price">Price:</label>
+                <input type="number" class="form-control" id="price" name="price" required>
+            </div>
+
+            <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" required>
+            </div>
+
+            <button type="button" class="btn btn-success" onclick="addCandy()">Add Candy</button>
+        </form>
+
+        <div id="candyTable" class="row justify-content-center">
+            <caption>Stock of Candies</caption><br><br>
+            <table class="table table-active table-hover table-center">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="row">Candy Name</th>
+                        <th scope="row">Description</th>
+                        <th scope="row">Price</th>
+                        <th scope="row">Quantity</th>
+                        <th scope="row">Option 1</th>
+                        <th scope="row">Option 2</th>
+                        <th scope="row">Option 3</th>
+                    </tr>
+                </thead>
+                <tbody id="candyTableBody">
+                    <!-- Table body content will be dynamically populated here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.5/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
