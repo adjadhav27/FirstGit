@@ -1,7 +1,7 @@
 import Expenses from "./components/Expenses/Expenses";
 import "./components/Expenses/ExpenseItem.css";
 import React from "react";
-import ExpenseForm from "./components/AddExpense/ExpenseForm";
+import ExpenseForm from "./components/NewExpense/ExpenseForm";
 
 const App = () => {
   const expenses = [
