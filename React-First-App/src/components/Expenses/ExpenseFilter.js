@@ -1,5 +1,3 @@
-import Expenses from "./Expenses";
-
 const ExpenseFilter = (props) => {
 
     const dropDownChangeHandler = (event) => {
