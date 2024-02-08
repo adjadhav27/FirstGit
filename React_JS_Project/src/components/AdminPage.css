@@ -1,0 +1,61 @@
+.admin-page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-form-container {
+  margin-bottom: 30px;
+}
+
+.product-list-container {
+  margin-top: 30px;
+}
+
+.product-list-container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.product-list-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product-list-container li {
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-list-container li span {
+  font-weight: bold;
+  color: #333;
+}
+
+.product-list-container li button {
+  padding: 8px 15px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product-list-container li button:hover {
+  background-color: #c82333;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ccc;
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 8px;
+}
