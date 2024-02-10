@@ -27,3 +27,15 @@
     object-fit: cover;
     transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
   }
+
+  @font-face {
+    font-family: 'saman';
+    src: url('../../font/saman1.TTF'),
+         url('../../font/saman2.woff'),
+         url('../../font/saman3.woff2');
+  }
+
+  .heading {
+    font-family: 'saman';
+    font-weight: 500;
+  }
