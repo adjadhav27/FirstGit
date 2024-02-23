@@ -7,10 +7,10 @@ const Header = (props) => {
   return (
     <Fragment>
       <header className={classes.header}>
-        <h1 className={classes.heading}>Desi Delight Dining</h1>
+          <h1 className={classes.heading}>Desi Delight Dining</h1>
         <HeaderCartButton />
       </header>
-      <div className={classes['main-image']}>
+      <div className={classes["main-image"]}>
         <img src={mealsImage} alt="indian cuisine eatery" />
       </div>
     </Fragment>
